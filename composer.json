@@ -1,16 +1,22 @@
 {
     "name": "asalahp/whatsapp_twilio",
     "description": "whatsapp twilio configuration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "asala",
+            "email": "alothmanasala@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Asalahp\\WhatsappTwilio\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "alothmanasala",
-            "email": "alothmanasala@gmail.com"
-        }
-    ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
