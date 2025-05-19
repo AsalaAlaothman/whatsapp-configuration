@@ -1,0 +1,16 @@
+{
+    "name": "asalahp/whatsapp_twilio",
+    "description": "whatsapp twilio configuration",
+    "autoload": {
+        "psr-4": {
+            "Asalahp\\WhatsappTwilio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alothmanasala",
+            "email": "alothmanasala@gmail.com"
+        }
+    ],
+    "require": {}
+}
